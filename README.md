@@ -29,4 +29,4 @@ type-shared contract between frontend and backend.
 Automated tests, deeper SQL (window functions, CTEs), CI/CD beyond a single build step.
 
 ## 📫 Get in touch
-- LinkIn: https://www.linkedin.com/in/<your-handle>
+- LinkIn: https://www.linkedin.com/in/rajesh-gajra-0a5b9620/
