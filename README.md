@@ -1,32 +1,47 @@
 # Hi, I'm Rajesh
-I'm learning **full-stack TypeScript development** by building deployable, production-shaped
-apps — and shipping them live, not just committing them.
 
-## 🔭 What I'm working on
-A **video-rental store management system** — the classic "Sakila" sample DB wrapped in a modern
-stack and deployed end to end:
+I'm a backend-focused developer building full-stack apps and shipping them live. Two stacks, two deployed projects.
 
-> **Live demo:** [sakila-angular.onrender.com](https://sakila-angular.onrender.com) — login `Mike` / `Admin@123`
+## Projects
 
-| Layer        | Tech                                | Repo  |
-|--------------|-------------------------------------|-------|
-| 🌐 Frontend  | Angular 22, standalone components, Signals, lazy routes | [sakila-angular](https://github.com/rajeshgajra19889/sakila-angular) |
-| 🔌 Backend   | Node.js 24, Express 5, TypeScript (strict) | [sales-api](https://github.com/rajeshgajra19889/sales-api) |
-| 🗄️ Database  | PostgreSQL, Drizzle ORM             | (same API repo) |
-| 🚀 Deploy    | Render + Neon, GitHub Actions CI    | — |
+### 1. Sakila Store Manager — full-stack, deployed
 
-**Features:** JWT auth, full CRUD across 8+ modules (films, actors, customers, staff, rentals,
-inventory, stores, reservations), search/sort/pagination everywhere, dashboard analytics, and a
-type-shared contract between frontend and backend.
+A video-rental store admin panel, live end to end:
 
-## 🛠️ What I know
-- **TypeScript** (strict), Node.js, Express, REST APIs, JWT
-- **Angular** (standalone, signals, lazy loading)
-- **PostgreSQL**, Drizzle ORM, SQL
-- Git & GitHub, GitHub Actions (CI with build/typecheck), cloud deploys (Render/Neon)
+**Live demo:** [sakila-angular.onrender.com](https://sakila-angular.onrender.com) — login **Mike** / **Admin@123**
 
-## 📚 Currently learning
-Automated tests, deeper SQL (window functions, CTEs), CI/CD beyond a single build step.
+| Layer       | Tech                                           | Repo |
+|-------------|------------------------------------------------|------|
+| Frontend    | Angular 22 — standalone, signals, lazy routes  | [sakila-angular](https://github.com/rajeshgajra19889/sakila-angular) |
+| Backend     | Node.js 24, Express 5, TypeScript (strict)     | [sales-api](https://github.com/rajeshgajra19889/sales-api) |
+| Database    | PostgreSQL, Drizzle ORM                        | (same API repo) |
+| Deploy      | Render + Neon, GitHub Actions CI               | — |
 
-## 📫 Get in touch
-- LinkIn: https://www.linkedin.com/in/rajesh-gajra-0a5b9620/
+JWT auth, full CRUD across 8+ modules, search/sort/pagination everywhere, dashboard analytics, type-shared contract between frontend and backend.
+
+### 2. Expense Tracker — .NET backend
+
+A secure, production-shaped REST API in **ASP.NET Core (.NET 10)** + EF Core + SQL Server:
+
+[ExpenseTracker](https://github.com/rajeshgajra19889/ExpenseTracker)
+
+- JWT auth with rotating refresh tokens + role-based auth (`User`/`Admin`)
+- CRUD for expenses, categories, budgets; soft deletes via global query filter
+- LINQ reporting: spend by category, monthly trend, budget vs. actual
+- API versioning, output caching, Serilog logging, health checks
+- Dockerized (API + SQL Server via Compose)
+
+## Skills
+
+- **Backend:** C# / .NET (ASP.NET Core, EF Core), Node.js, Express, REST APIs, JWT + refresh tokens, role-based auth
+- **Frontend:** Angular (standalone, signals, lazy loading), TypeScript (strict)
+- **Data:** PostgreSQL, Drizzle ORM, SQL Server, SQL, LINQ
+- **DevOps:** Git, GitHub Actions (CI), Docker, Docker Compose, cloud deploys (Render, Neon)
+
+## Currently learning
+
+Automated testing (xUnit), deeper SQL (window functions, CTEs), Azure deployments.
+
+## Contact
+
+LinkedIn: linkedin.com/in/rajesh-gajra-0a5b9620/
