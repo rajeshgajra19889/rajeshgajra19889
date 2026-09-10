@@ -1,6 +1,6 @@
 # Hi, I'm Rajesh
 
-I'm a backend-focused developer building full-stack apps and shipping them live. Two stacks, two deployed projects.
+I build full-stack apps and ship them live — frontend, backend, database, deploy. Three deployed projects, all with green CI.
 
 ## Projects
 
@@ -19,30 +19,7 @@ A video-rental store admin panel, live end to end:
 
 JWT auth, full CRUD across 8+ modules, search/sort/pagination everywhere, dashboard analytics, type-shared contract between frontend and backend.
 
-### 2. Expense Tracker — .NET backend
-
-A secure, production-shaped REST API in **ASP.NET Core (.NET 10)** + EF Core + SQL Server:
-
-[ExpenseTracker](https://github.com/rajeshgajra19889/ExpenseTracker)
-
-- JWT auth with rotating refresh tokens + role-based auth (`User`/`Admin`)
-- CRUD for expenses, categories, budgets; soft deletes via global query filter
-- LINQ reporting: spend by category, monthly trend, budget vs. actual
-- API versioning, output caching, Serilog logging, health checks
-- Dockerized (API + SQL Server via Compose)
-
-## Skills
-
-- **Backend:** C# / .NET (ASP.NET Core, EF Core), Node.js, Express, REST APIs, JWT + refresh tokens, role-based auth
-- **Frontend:** Angular (standalone, signals, lazy loading), TypeScript (strict)
-- **Data:** PostgreSQL, Drizzle ORM, SQL Server, SQL, LINQ
-- **DevOps:** Git, GitHub Actions (CI), Docker, Docker Compose, cloud deploys (Render, Neon)
-
-## Currently learning
-
-Automated testing (xUnit), deeper SQL (window functions, CTEs), Azure deployments.
-
-### 3. Northwind Admin Panel — full-stack, live
+### 2. Northwind Admin Panel — full-stack, live
 
 A B2B admin panel over the classic Northwind dataset (830 orders, 10+ modules), deployed end to end:
 
@@ -56,6 +33,33 @@ A B2B admin panel over the classic Northwind dataset (830 orders, 10+ modules), 
 | Deploy | Render + Neon, GitHub Actions CI | — |
 
 CRUD across customers, products, orders, employees, suppliers, shippers + a dashboard with CSS-only charts, search/sort/pagination on every list, detail pages (supplier products, employee orders, customer orders), and first-boot auto-seeding.
+
+### 3. Expense Tracker — .NET backend
+
+A secure, production-shaped REST API in **ASP.NET Core (.NET 10)** + EF Core + SQL Server:
+
+[ExpenseTracker](https://github.com/rajeshgajra19889/ExpenseTracker)
+
+- JWT auth with rotating refresh tokens + role-based auth (`User`/`Admin`)
+- CRUD for expenses, categories, budgets; soft deletes via global query filter
+- LINQ reporting: spend by category, monthly trend, budget vs. actual
+- API versioning, output caching, Serilog logging, health checks
+- Dockerized (API + SQL Server via Compose)
+
+## Skills
+
+- **Backend:** C# / .NET (ASP.NET Core, EF Core), Node.js (NestJS, Express), REST APIs, JWT + refresh tokens, role-based auth
+- **Frontend:** Angular (standalone, signals, lazy loading), TypeScript (strict)
+- **Data:** PostgreSQL (TypeORM, Drizzle ORM), SQL Server, SQL, LINQ
+- **DevOps:** Git, GitHub Actions (CI), Docker, Docker Compose, cloud deploys (Render, Neon)
+
+## Currently learning
+
+Automated testing (xUnit), deeper SQL (window functions, CTEs), Azure deployments.
+
+## Availability
+
+Open to freelance projects and actively looking for full time oppurtunity.
 
 ## Contact
 
