@@ -42,6 +42,21 @@ A secure, production-shaped REST API in **ASP.NET Core (.NET 10)** + EF Core + S
 
 Automated testing (xUnit), deeper SQL (window functions, CTEs), Azure deployments.
 
+### 3. Northwind Admin Panel — full-stack, live
+
+A B2B admin panel over the classic Northwind dataset (830 orders, 10+ modules), deployed end to end:
+
+**Live demo:** https://northwind-app-wjjo.onrender.com
+
+| Layer | Tech | Repo |
+|---|---|---|
+| Frontend | Angular 22 — standalone, signals, lazy routes | [northwind-app](https://github.com/rajeshgajra19889/northwind-app) |
+| Backend | NestJS, TypeORM | [northwind-backend](https://github.com/rajeshgajra19889/northwind-backend) |
+| Database | PostgreSQL (Neon, SSL) — auto-seeded from a SQL dump | (in backend repo) |
+| Deploy | Render + Neon, GitHub Actions CI | — |
+
+CRUD across customers, products, orders, employees, suppliers, shippers + a dashboard with CSS-only charts, search/sort/pagination on every list, detail pages (supplier products, employee orders, customer orders), and first-boot auto-seeding.
+
 ## Contact
 
 LinkedIn: linkedin.com/in/rajesh-gajra-0a5b9620/
