@@ -34,17 +34,20 @@ A B2B admin panel over the classic Northwind dataset (830 orders, 10+ modules), 
 
 CRUD across customers, products, orders, employees, suppliers, shippers + a dashboard with CSS-only charts, search/sort/pagination on every list, detail pages (supplier products, employee orders, customer orders), and first-boot auto-seeding.
 
-### 3. Expense Tracker — .NET backend
+### 3. Money Manager — Expense Tracker, full-stack, live
 
-A secure, production-shaped REST API in **ASP.NET Core (.NET 10)** + EF Core + SQL Server:
+A personal finance app — track income & expenses, manage budgets, accounts, recurring payments, and view spending insights:
 
-[ExpenseTracker](https://github.com/rajeshgajra19889/ExpenseTracker)
+**Live app:** [money-manager-client-492h.onrender.com](https://money-manager-client-492h.onrender.com)
 
-- JWT auth with rotating refresh tokens + role-based auth (`User`/`Admin`)
-- CRUD for expenses, categories, budgets; soft deletes via global query filter
-- LINQ reporting: spend by category, monthly trend, budget vs. actual
-- API versioning, output caching, Serilog logging, health checks
-- Dockerized (API + SQL Server via Compose)
+| Layer | Tech | Repo |
+|---|---|---|
+| Frontend | Angular 22 — standalone, signals, PWA, Tailwind CSS | [money-manager-client](https://github.com/rajeshgajra19889/money-manager-client) |
+| Backend | ASP.NET Core (.NET 10), EF Core, JWT auth | [money-manager-backend](https://github.com/rajeshgajra19889/money-manager-backend) |
+| Database | PostgreSQL (Neon) | (in backend repo) |
+| Deploy | Render (Docker + static site), GitHub Actions CI | — |
+
+JWT auth with access + refresh, transactions, accounts, categories, budgets, recurring expenses and stats dashboards — all baked into a Dockerized API and an installable PWA.
 
 ## Skills
 
